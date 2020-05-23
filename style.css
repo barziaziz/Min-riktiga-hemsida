@@ -5,7 +5,7 @@
 .mail {
     top: 20px;
     font-family: arial;
-    right: 0px;
+    right: 30px;
     text-align: right;
     position: fixed;
     text-decoration: none;
@@ -25,6 +25,8 @@ nav {
     
 }
 
+
+
 ul {
     
     
@@ -32,7 +34,7 @@ ul {
 }
 
 ul li {
-    color:black;
+    
     font-weight: 200;
     list-style: none;
     
@@ -42,7 +44,7 @@ ul li a {
     text-decoration: none;
     color: black;
     font-family: arial;
-    padding: 0 20px;
+    padding: 0 30px;
 }
 
 ul li a:hover {
@@ -67,10 +69,26 @@ ul li a:hover {
     left: 400px;
     z-index: 5;
     
+    
 }
 
 body {
     background-color: rgb(242,242,242);
+}
+
+.touch {
+    position: fixed;
+    text-align: right;
+    font-family: arial;
+    right: 30px;
+    bottom: 60px;
+    font-weight:
+    
+}
+
+.intresse {
+    position: relative;
+    top: 300px;
 }
 
 footer {
@@ -78,6 +96,4 @@ footer {
     font-family: arial;
 }
 
-
-}
 
