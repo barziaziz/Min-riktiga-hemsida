@@ -1,7 +1,9 @@
 * {
-    margin: 0;
     padding: 0;
+    margin: 0;
+
 }
+
 .mail {
     top: 20px;
     font-family: arial;
@@ -35,8 +37,8 @@ ul {
 
 ul li {
     
-    font-weight: 200;
-    list-style: none;
+    
+    
     
 }
 
