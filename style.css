@@ -1,11 +1,9 @@
 * {
-    padding: 0;
     margin: 0;
-
 }
-
+/* mail länk */ 
 .mail {
-    top: 20px;
+    padding-top: 20px;
     font-family: arial;
     right: 30px;
     text-align: right;
@@ -19,59 +17,84 @@
     color: rgb(217,217,217);
 }
 
+.barzi_stor {
+    font-weight: 800;
+    font-family: 'DM Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+ 
+}
 
 nav {
     position: fixed;
-    top: 20px;
-    
-    
-}
-
-
-
-ul {
-    
-    
-
-}
-
-ul li {
-    
-    
-    
-    
-}
-
-ul li a {
-    text-decoration: none;
-    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: ;
     font-family: arial;
-    padding: 0 30px;
+    padding: 10px;
+    padding-top: 20px;;
+  
 }
 
-ul li a:hover {
+
+a {
+    color: black;
+    text-decoration: none;
+    outline: none;
+
+}
+
+a:link {
+    color:black;
+}
+
+a:visited {
+    color: black;
+}
+
+a:focus {
+    
+    
+    
+}
+
+a:hover {
+    
     color: rgb(217,217,217);
 }
 
-.barzi_rubrik {
-    font-weight: 20px;
+a:active {
+    color: rgb(217,217,217);
 }
-.rubrik {
-    position: relative;
-    left: 700px;
-    top: 150px;
-    z-index: 10;
-    font-size: 100px;
-    font-family: 'Merriweather', serif;
+ 
+
+
+.flex_ed {
+    padding-top: 50px;
+    padding-left: 200px;
+    display: flex;
+    flex-wrap: wrap;
+   
 }
 
-.ed {
+.bergska {
+    border-color: black;;
+    border-bottom: black;
+    border-style: solid;
+}
+
+.barzi_head {
+    flex: 20px;
     position: relative;
-    bottom: 150px;
-    left: 400px;
-    z-index: 5;
+    right: 40px;
+    top: 120px;
+    font-size: 100px;
+    font-family: 'DM Sans', sans-serif;
+font-family: 'Oswald', sans-serif;
+    font-weight: 472;
+    line-height: 115px;
     
-    
+
+
 }
 
 body {
@@ -84,18 +107,46 @@ body {
     font-family: arial;
     right: 30px;
     bottom: 60px;
-    font-weight:
     
 }
 
-.intresse {
-    position: relative;
-    top: 300px;
+
+.om_mig {
+    padding-top: 50px;;
+    padding-left: 200px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-color: lightseagreen;
+    border-style: solid;
 }
 
+.om_mig_2 {
+    padding-top: 50px;;
+    padding-left: 200px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-color: lightseagreen;
+    border-style: solid;
+    flex-wrap: wrap;
+}
+
+.om_mig_par {
+    flex: 100px;
+    padding-left: 20px;
+    padding-top: 30px;
+    
+}
+
+
+
 footer {
-    text-align: center;
+    position: relative;
     font-family: arial;
+    top: 120px;
+    text-align: center;
+    font-weight: 100;
 }
 
 
