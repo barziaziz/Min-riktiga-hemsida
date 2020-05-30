@@ -70,13 +70,16 @@ a:active {
  
 
 /* bild på mig */
-.flex_ed {
+.flex_barzi {
+
     padding-top: 50px;
     padding-left: 200px;
     display: flex;
     flex-wrap: wrap;
    
 }
+
+
 /* bergska länk */
 .bergska {
     font-weight: 800;
@@ -138,7 +141,7 @@ body {
     position: relative;
     bottom: 380px;
     padding-top: 0px;;
-    padding-left: 530px;
+    padding-left: 580px;
     display: flex;
     flex-direction: column;
     align-items: center;
