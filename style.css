@@ -16,14 +16,14 @@
 .mail:hover {
     color: rgb(217,217,217);
 }
-
+/* barzi aziz i fetstil i menyn */
 .barzi_stor {
     font-weight: 800;
     font-family: 'DM Sans', sans-serif;
     font-family: 'Oswald', sans-serif;
  
 }
-
+/* menyn */
 nav {
     position: fixed;
     display: flex;
@@ -36,12 +36,14 @@ nav {
 }
 
 
-a {
+nav a {
     color: black;
     text-decoration: none;
     outline: none;
+    
 
 }
+
 
 a:link {
     color:black;
@@ -67,7 +69,7 @@ a:active {
 }
  
 
-
+/* bild på mig */
 .flex_ed {
     padding-top: 50px;
     padding-left: 200px;
@@ -75,13 +77,11 @@ a:active {
     flex-wrap: wrap;
    
 }
-
+/* bergska länk */
 .bergska {
-    border-color: black;;
-    border-bottom: black;
-    border-style: solid;
+    font-weight: 800;
 }
-
+/* mitt namn på bilden i första sidan*/
 .barzi_head {
     flex: 20px;
     position: relative;
@@ -92,15 +92,16 @@ a:active {
 font-family: 'Oswald', sans-serif;
     font-weight: 472;
     line-height: 115px;
+   
     
 
 
 }
-
+/* bakgrundfärg på hela */
 body {
     background-color: rgb(242,242,242);
 }
-
+/* hör av dig länk*/
 .touch {
     position: fixed;
     text-align: right;
@@ -110,43 +111,94 @@ body {
     
 }
 
-
+/* om mig sektion*/
 .om_mig {
-    padding-top: 50px;;
+    
+    padding-top: 50px;
+    font-size: 10px;
     padding-left: 200px;
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    border-color: lightseagreen;
-    border-style: solid;
+    flex-direction: column;
+    
+    
 }
-
-.om_mig_2 {
-    padding-top: 50px;;
-    padding-left: 200px;
+/* about me rubrik */
+.about_me {
+    font-size: 90px;
+    position: relative;
+    top: 40px;
+    font-family: 'DM Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+        font-weight: 472;
+        line-height: 115px;
+    
+}
+/* om mig sektion, uppdelat för att styla*/
+ .om_mig_2 {
+    position: relative;
+    bottom: 350px;
+    padding-top: 0px;;
+    padding-left: 580px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
-    border-color: lightseagreen;
-    border-style: solid;
     flex-wrap: wrap;
+   
+ 
 }
-
+/* om mig text*/
 .om_mig_par {
     flex: 100px;
-    padding-left: 20px;
-    padding-top: 30px;
+    font-family: 'DM Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+       
+    
     
 }
 
 
-
+/* footer*/
 footer {
     position: relative;
     font-family: arial;
     top: 120px;
     text-align: center;
     font-weight: 100;
+    padding-bottom: 20px;
 }
 
+/* kontakt sektion*/
+.get_touch_head {
+    
+    padding-left: 250px;
+    font-size: 90px;
+    font-weight: 200px;
+    line-height: 100px;
+    font-family: 'DM Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    
 
+
+}
+/* kontakt uppgifter*/
+.kontakt {
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    
+    padding-top: 80px;
+    justify-content: space-evenly;
+    padding-right: 600px;
+    font-family: 'DM Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    
+    
+}
+
+.gulbox {
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+}
